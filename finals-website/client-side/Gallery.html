@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Golden Light</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/Logo1.png"></a>
+             <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="AboutUs.html">ABOUT US</a></li>
+                    <li><a href="Gallery.html">GALLERY</a></li>
+                    <li><a href="portfolio3.html">SERVICES</a></li>
+                    <li><a href="contact.php">CONTACTS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>GALLERY</h1>
+    </section>
+    
+  
+    <!-----gallery----->
+    <section class="gallery">
+    <div class="container">
+        <div id="slide">
+            <div class="item" style="background-image: url(Images/gallery.jpg);">
+                <div class="content">
+                    <div class="name">BEYOND BLUE</div>
+                    <div class="des">Unveiling the sapphire radiance experience</div>
+                    <button>See more</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(Images/gallery1.jpg);">
+                <div class="content">
+                    <div class="name">A NIGHT OF GLAMOUR</div>
+                    <div class="des">Enjoy the night of glamour with friends and families alike.</div>
+                    <button>See more</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(Images/gallery2.jpg);">
+                <div class="content">
+                    <div class="name">SMILES & JOY</div>
+                    <div class="des">Experience new opportunities to meet new friends and succeed together with the help of Golden Light Models & Artist Management.</div>
+                    <button>See more</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(Images/gallery3.jpg);">
+                <div class="content">
+                    <div class="name">DREAMS</div>
+                    <div class="des">Marvel at the talents that Golden Light Models & Artist Management cultivates to achieve their dreams.</div>
+                    <button>See more</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(Images/gallery4.jpg);">
+                <div class="content">
+                    <div class="name">STARS</div>
+                    <div class="des">Be the star of the show and show them what you are made of!</div>
+                    <button>See more</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(Images/gallery5.jpg);">
+                <div class="content">
+                    <div class="name">COMPETITIVE SPIRIT</div>
+                    <div class="des">Rise to the top and be best version you can be with dedication and grit.</div>
+                    <button>See more</button>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+            <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+    </div> 
+    </section>
+
+<!-----Footer----->
+     <footer>
+        <div class="row-footer">
+            <div class="col-footer">
+                <img src="Images/Logo1.png" class="logo">
+                <p>Golden Light Model & Artist Management was founded in 2019 with the dual goals of offering top-notch educational services and supporting community involvement via projects like the C.U.R.E. Foundation. Golden Light Model & Artist Management was born out of a deep combination of my interests and life experiences.</p>
+            </div>
+            <div class="col-footer">
+            <h3>Office <div class="underline-office"><span></span></div></h3>
+            <p>UNIT 2A, FLC Center</p>
+            <p>888 Hernan Cortes Street</p>
+            <p>Kasambagan, Mandaue City</p>
+            <p>Cebu, Philippines, 6014</p>
+            <p class="email-id">goldenlightmodels@gmail.com</p>
+            <h4>+63 0961-133-5861</h4>
+            </div>
+            <div class="col-footer">
+            <h3>Links <div class="underline-links"><span></span></div></h3>
+                <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Contacts</a></li>
+                </ul>
+            </div>
+        <div class="col-footer">
+            <h3>Newsletter <div class="underline-news"><span></span></div></h3>
+            <form>
+                <i class="fa fa-envelope"></i>
+                <input type="email" id="email" name="email" autocomplete="email" placeholder="Enter your email address" required>
+                <button type="submit"><i class="fa fa-arrow-right"></i></button>
+            </form>
+                <div class="icons">
+                <a href= "https://www.facebook.com/glmodelsofficial" target="_blank" class="fa fa-facebook"></a>
+                <i class="fa fa-twitter"></i>
+                <a href="https://www.instagram.com/gl_models_official/" target="_blank" class="fa fa-instagram"></a>
+                <i class="fa fa-linkedin"></i>
+            </div>
+         </div>
+        </div>
+        <hr>
+        <p class="copyright">Golden Light Models & Artist Management @ 2024 - All Rights Reserved</p>
+    </footer>  
+</body>
+</html>
+
